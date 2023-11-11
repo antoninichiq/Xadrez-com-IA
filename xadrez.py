@@ -18,6 +18,7 @@ while i < len(tabuleiro):
     j = 0
     while j < len(tabuleiro[i]):
         print(tabuleiro[i][j], end = '  ')
-        j += 1  
+        j += 1 
+    print()
     i += 1
     
